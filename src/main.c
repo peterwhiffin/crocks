@@ -1,5 +1,3 @@
-#include <SDL3/SDL_events.h>
-#include <stdio.h>
 #include <time.h>
 #include <math.h>
 
