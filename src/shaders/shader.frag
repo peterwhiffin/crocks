@@ -1,9 +1,11 @@
 #version 460 core
 layout(location = 0) out vec4 fragColor;
-layout(location = 3) uniform vec3 color;
 
-layout(location = 6) in vec2 fragPos;
-layout(location = 7) uniform float time;
+layout(location = 5) in vec2 fragPos;
+
+layout(location = 7) uniform vec3 color;
+layout(location = 8) uniform float time;
+
 void main() {
     vec2 rolling = vec2(sin(time), cos(time));
     float sinT = sin(time);
