@@ -1,2 +1,2 @@
 # rocks
-its rocks..
+you shoot the rocks
